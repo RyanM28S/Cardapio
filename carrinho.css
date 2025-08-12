@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #331F19;
+}
+header {
+    text-align: center;
+
+}
+.conteiner {
+    background-color: #CBBBA7;
+    margin: 25%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+}
+p {
+    background-color: #CBBBA7;
+    margin: 25%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+}
+.botaoAnterior {
+    background-color: #331F19;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #331F19;
+    padding: 10px;    
+    border: 3px solid black;
+}
+button {
+    border-color: black;
+    background-color: #CBBBA7;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}

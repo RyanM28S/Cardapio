@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="conteiner">
+            <h1>Nome do restaurante</h1>
+            <hr>
+            <h2>menu</h2>
+            <h3>entrada</h3>
+        </div>
+    </header>
+    <main>
+        <section class="menu">
+            <div class="Entrada1">
+                <div id="Pão">
+                    <h2>Pão</h2>
+                    <hr>
+                    <p><strong>Preço : R$10,00</strong></p>
+                </div>
+                <div class="img-btn">
+                    <img src="./58497.png" alt="">
+                    <button onclick="salvarItem('Pão','R$10,00')" class="enviar">Selecionar</button>
+                </div>
+            </div>
+            <div class="Entrada2">
+                <h2>Salada</h2>
+                <hr>
+                <p><strong>Preço : R$12,00</strong></p>
+                <div class="img-btn">
+                    <img src="./58497.png" alt="">
+                    <button onclick="salvarItem('Salada','R$12,00')" class="enviar">Selecionar</button>
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <div class="Entrada3">
+                <h2>Torresmo</h2>
+                <hr>
+                <p><strong>Preço : R$13,00</strong></p>
+                <div class="img-btn">
+                    <img src="./58497.png" alt="">
+                    <button onclick="salvarItem('Torresmo','R$13,00')" class="enviar">Selecionar</button>
+                </div>
+            </div>
+            <div class="Entrada4">
+                <h2>Sopa</h2>
+                <hr>
+                <p><strong>Preço : R$15,00</strong></p>
+                <div class="img-btn">
+                    <img src="./58497.png" alt="">
+                    <button onclick="salvarItem('Sopa','R$15,00')" class="enviar">Selecionar</button>
+                </div>
+        </section>
+        <section class="botoes">
+            <div class="botaoAnterior">
+                <button onclick="paginaAnterior0()" id="botao">Fechar menu....</button>
+            </div>
+            <div class="botaoProximo">
+                <button onclick="proximaPagina()" id="botao">Proxima pagina</button>
+            </div>
+        </section>
+        <a href="Carrinho.html">carrinho</a>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

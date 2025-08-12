@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio</title>
+    <link rel="stylesheet" href="bebidas.css">
+</head>
+
+<body>
+    <header>
+        <div class="conteiner">
+            <h1>Nome do restaurante</h1>
+            <hr>
+            <h2>menu</h2>
+            <h3>Bebidas</h3>
+        </div>
+    </header>
+    <main>
+        <section class="menu">
+            <div class="Entrada1">
+                <h2>Vinho</h2>
+                <hr>
+                <p><strong>Preço : R$40,00</strong></p>
+                <div class="img-btn">
+                    <img src="./58497.png" alt="">
+                    <button onclick="salvarItem('Vinho','R$40,00')" class="enviar">Selecionar</button>
+                </div>
+            </div>
+            <div class="Entrada2">
+                <h2>Coca-cola</h2>
+                <hr>
+                <p><strong>Preço : R$16,00</strong></p>
+                <div class="img-btn">
+                    <img src="./58497.png" alt="">
+                    <button onclick="salvarItem('Coca-cola','R$16,00')" class="enviar">Selecionar</button>
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <div class="Entrada3">
+                <h2>Cerveja</h2>
+                <hr>
+                <p><strong>Preço : R$24,00</strong></p>
+                <div class="img-btn">
+                    <img src="./58497.png" alt="">
+                    <button onclick="salvarItem('Cervaja','R$24,00')" class="enviar">Selecionar</button>
+                </div>
+            </div>
+            <div class="Entrada4">
+                <h2>Chá-Gelado</h2>
+                <hr>
+                <p><strong>Preço : R$12,00</strong></p>
+                <div class="img-btn">
+                    <img src="./58497.png" alt="">
+                    <button onclick="salvarItem('Chá-Gelado','R$12,00')" class="enviar">Selecionar</button>
+                </div>
+        </section>
+        <section class="botoes">
+            <div class="botaoAnterior">
+                <button onclick="paginaAnterior2()" id="botao">Pagina anterior</button>
+            </div>
+            <div class="botaoProximo">
+                <button onclick="proximaPagina3()" id="botao">Fechar menu....</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
