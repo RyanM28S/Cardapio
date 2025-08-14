@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capa</title>
-    <link rel="stylesheet" href="capa.css">
+    <link rel="stylesheet" href="styl2.css">
 </head>
 
 <body>
     <header>
         <div class="conteiner">
             <div class="cabecario">
-            <h1>"Nome do Restaurante"</h1>
-            <h2>O melhor cardapio da região</h2>
+                <h1>"Nome do Restaurante"</h1>
+                <h2>O melhor cardapio da região</h2>
             </div>
             <div class="botaoCarrinho">
                 <button onclick="irCarrinho()" id="carrinhoBotao">Ir para carrinho</button>
@@ -23,31 +23,37 @@
     <main>
         <section>
             <div class="conteiner">
-                <h2><strong>Cardapio</strong></h2>
+                <h2 id="capaCardapio"><strong>Cardapio</strong></h2>
                 <ul>
-                    <li><strong>Entradas</strong>
+                    <li><button onclick="entradasAnterior()" class="conteinerRapidos"><strong>Entradas</strong></button>
                         <hr>
-                        <p>Para abrir o apetite e preparar o paladar para o prato principal</p>
+                        <p class="descricao">Para abrir o apetite e preparar o paladar para o prato principal</p>
                     </li>
-                    <li><strong>Pratos Principais</strong>
+                    <li> <button onclick="pratosPagina()" class="conteinerRapidos"><strong>Pratos
+                                Principais</strong></button>
                         <hr>
-                        <p>O ponto principal da refeição, a parte mais saborosa</p>
+                        <p class="descricao">O ponto principal da refeição, a parte mais saborosa</p>
                     </li>
-                    <li><strong>Bebidas</strong>
+                    <li><button onclick="sobremesaPagina()"
+                            class="conteinerRapidos"><strong>Sobremesas</strong></button>
                         <hr>
-                        <p>Um acompanhamento para o prato pricipal</p>
+                        <p class="descricao">Um doce</p>
+                    </li>
+                    <li><button onclick="bebidasPagina()" class="conteinerRapidos"><strong>Bebidas</strong></button>
+                        <hr>
+                        <p class="descricao">Um acompanhamento para o prato pricipal</p>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="menu">
-            <div class="botaoProximo">
-                <button onclick="proximaPagina0()" id="botao">..................Abrir Menu..................</button>
+            <div class="botaoProximo1">
+                <button onclick="entradasAnterior()" id="botao">..................Abrir Menu..................</button>
             </div>
 
         </section>
     </main>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

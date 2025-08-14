@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #331F19;
+}
+
+header {
+    text-align: center;
+}
+
+.conteiner {
+    background-color: #CBBBA7;
+    margin: 25%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+    margin-bottom: 2px;
+}
+
+.menu {
+    display: block;
+    display: flex;
+    gap: 20px;
+}
+
+.Entrada1 {
+    display: flex;
+    display: table-column;
+    flex: 1;
+    background-color: #CBBBA7;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 25%;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+
+}
+
+.Entrada2 {
+    display: flex;
+    display: table-column;
+    flex: 1;
+    margin-right: 25%;
+    background-color: #CBBBA7;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.Entrada3 {
+    display: flex;
+    display: table-column;
+    flex: 1;
+    background-color: #CBBBA7;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 25%;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+    margin-top: 0;
+}
+
+.Entrada4 {
+    display: flex;
+    display: table-column;
+    flex: 1;
+    margin-right: 25%;
+    background-color: #CBBBA7;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+    margin-top: 0px;
+}
+
+.botoes {
+    display: block;
+    display: flex;
+    gap: 20px;
+}
+
+.botaoProximo {
+    display: flex;
+    display: table-column;
+    flex: 1;
+    background-color: #CBBBA7;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    margin-right: 25%;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+
+}
+
+.botaoAnterior {
+    display: flex;
+    display: table-column;
+    flex: 1;
+    background-color: #CBBBA7;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    margin-left: 25%;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+#botao {
+    border: none;
+    background-color: #CBBBA7;
+    cursor: pointer;
+    font-size: 43px;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+
+}
+
+hr {
+    border-color: black;
+}
+
+.img-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.enviar {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.botaoProximo1 {
+    text-align: center;
+    background-color: #CBBBA7;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+li {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+}
+
+.descricao {
+    font-size: 20px;
+}
+
+#capaCardapio {
+    text-align: center;
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+.conteiner0 {
+    background-color: #CBBBA7;
+    margin: 25%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+#total {
+    background-color: #CBBBA7;
+    margin: 25%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+#carrinho-lista {
+    background-color: #CBBBA7;
+    margin: 25%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.botaoAnterior9 {
+    background-color: #331F19;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #331F19;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.botao9 {
+    border: none;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+}
+
+#removerItem {
+    border: none;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    margin: 6px;
+}
+
+#carrinhoBotao {
+    border: none;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    margin: 6px;
+}
+
+.conteinerRapidos {
+    background-color: #CBBBA7;
+    margin: 25%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border: none;
+    color: #331F19;
+    padding: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+    box-shadow: none;
+}
+
+.conteinerRapidos :hover {
+    transform: translateY(-5px) scale(1.03);
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.botaoAnterior20 {
+    display: flex;
+    border: 2px solid black;
+    background-color: #CBBBA7;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 1px;
+    color: #331F19;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    box-shadow: none;
+}
+
+.botaoAnterior20 button {
+    flex-grow: 1;
+    background-color: #CBBBA7;
+    color: #331F19;
+    font-size: 16px;
+    cursor: pointer;
+}

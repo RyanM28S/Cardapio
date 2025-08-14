@@ -5,50 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho</title>
-    <link rel="stylesheet" href="carrinho.css">
+    <link rel="stylesheet" href="styl2.css">
 </head>
 
 <body>
     <header>
-        <section class="conteiner">
+        <section class="conteiner0">
             <h1>Carrinho de compras</h1>
-            <p>Suas escolhas</p>
-            <div class="botaoAnterior">
-                <button onclick="paginaAnterior0()" id="botao">Fechar menu....</button>
-            </div>
+            <p class="total">Suas escolhas</p>
+            <button onclick="paginaCapa()" class="botao9">Fechar menu....</button>
         </section>
+        <button onclick="realizarPagamento()" class="botao9">Realizar Pagamento</button>
+        <button onclick="exportarCarrinhoParaExcel()" class="botao9">Exportar para Excel</button>
     </header>
     <main id="carrinho-lista"></main>
     <p id="total"></p>
-    <script>
-    function removerItem(index) {
-        let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
-        carrinho.splice(index, 1);
-        localStorage.setItem('carrinho', JSON.stringify(carrinho));
-        location.reload(); 
-    }
-
-    const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
-    const lista = document.getElementById('carrinho-lista');
-    const totalEl = document.getElementById('total');
-
-    if (carrinho.length === 0) {
-        lista.innerHTML = "<p>Carrinho vazio</p>";
-        totalEl.textContent ="";
-    } else {
-        lista.innerHTML = carrinho.map((item, index) =>
-            `<p>${item.nome} - ${item.preco} 
-            <button onclick="removerItem(${index})">Excluir</button></p>`
-        ).join('');
-
-        const total = carrinho.reduce((acc, item) => {
-            const valor = parseFloat(item.preco.replace('R$', '').replace(',', '.'));
-            return acc + valor;
-        }, 0);
-
-        totalEl.textContent = `Total: R$${total.toFixed(2).replace('.', ',')}`;
-    }
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="script.js"></script>
 </body>
 
